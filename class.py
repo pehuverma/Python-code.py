@@ -11,37 +11,28 @@ Example : attributes: singer, songname
    behaviour : singerdetails
 '''
 
-# make a class
-class Album:
-    #pass
-    singer ='Arjit'
-    songName='I love my india'
-#after creating class you will usethe class by object
-# how create object
-albumObject = Album() 
-#print('\n albumObject.singer:',albumObject.singer)  
+# create class
+class MyClass:
+    # name = 'Hello Python'
+    # creating constructer
+    def __init__(self, name, mobile):
+        self.name = name
+        self.mobile = mobile
+    
+    def mydetail(self):
+        print('\n' + self.name + ' and ' + self.mobile)
 
-#creating constructor
-def __init__(self,singer,songName):
-    #self is current instance and we are creating 2 insttance for singer
-    #and song name
-    self.s = singer
-    self.sn = songName
-def albumdetail(self):
-    print('''
-    ---------------------------------
-    Our album name 
-    ----------------------------------
-    Singer Name : {}
-    Song Name : {}
-    ''',format(self.s,self.sn))
+    def mypersionaldetail(self, email):
+        print('''
+        Hello {}, how are you?
+        Is this your mobile number {}
+        Is this your email id {}
+        '''.format(self.name, self.mobile, email))
 
+# create objecte
+# myclass()
+myobj = MyClass('purnima','8700262044')
 
-def oldsongAlbum(self):
-    print(''''
-    =======================
-    old album name
-    =======================
-    singer name :{}
-    song name :{}
-    ''',format(self.s,self.sn))
+myobj.mydetail()
+myobj.mypersionaldetail('python@gmail.com')
+# print(myobj.name)
