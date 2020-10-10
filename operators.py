@@ -16,7 +16,7 @@ b=10
 print('\nSum:',a+b)
 
 # Exponent It returns the Sqaure value
-print('Multiply: ', 6 ** 2)
+print('Multiply: ', 6 ** 3)
 
 # Multiplication It simply multiply the operands 
 print('Simple multiply:' ,2*8)

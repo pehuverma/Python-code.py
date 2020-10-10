@@ -15,9 +15,10 @@ def function():
 
 function()
 ''' function can be declare 4 types:
-1. function with arguments with return value.
-2. function without arguments and without return vlaue.
-3. funtion wihtout argumnets with return value
+    a. Function with arguments & with return value
+    b. Function without arguments & without return value
+    c. Function with arguments & without return value
+    d. Function without arguments & with return value
 '''
 #2nd behaviour of function
 # function with argument end with return value
